@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="25427" started-at="2021-07-14T23:03:36Z" finished-at="2021-07-14T23:04:02Z">
+    <groups>
+    </groups>
+    <test name="Open application, Register new Account" duration-ms="25427" started-at="2021-07-14T23:03:36Z" finished-at="2021-07-14T23:04:02Z">
+      <class name="tests.ScenarioOne">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ScenarioOne@131774fe]" name="setUp" is-config="true" duration-ms="129" started-at="2021-07-14T23:03:36Z" finished-at="2021-07-14T23:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.ScenarioOne@131774fe]" name="beforeTest" is-config="true" duration-ms="8734" started-at="2021-07-14T23:03:36Z" finished-at="2021-07-14T23:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="VerifyItemsToCheckout()[pri:0, instance:tests.ScenarioOne@131774fe]" name="VerifyItemsToCheckout" duration-ms="16530" started-at="2021-07-14T23:03:45Z" finished-at="2021-07-14T23:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyItemsToCheckout -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ScenarioOne@131774fe]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-07-14T23:04:02Z" finished-at="2021-07-14T23:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyItemsToCheckout status=SUCCESS method=ScenarioOne.VerifyItemsToCheckout()[pri:0, instance:tests.ScenarioOne@131774fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.ScenarioOne@131774fe]" name="afterClass" is-config="true" duration-ms="140" started-at="2021-07-14T23:04:02Z" finished-at="2021-07-14T23:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.ScenarioOne@131774fe]" name="afterSuite" is-config="true" duration-ms="424" started-at="2021-07-14T23:04:02Z" finished-at="2021-07-14T23:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.ScenarioOne -->
+    </test> <!-- Open application, Register new Account -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

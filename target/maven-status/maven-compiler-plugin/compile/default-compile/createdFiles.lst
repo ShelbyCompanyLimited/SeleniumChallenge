@@ -1,0 +1,8 @@
+helper\xpathExtractorToString.class
+helper\PageObjectExtender.class
+helper\ReadFromPropertiesFile.class
+pages\HomePage.class
+base\Base.class
+helper\ReadFromPom.class
+tests\ScenarioOne.class
+pages\CheckoutPage.class
