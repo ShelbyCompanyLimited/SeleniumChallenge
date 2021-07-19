@@ -1,62 +1,22 @@
 
-# Project Overview
+# Task 3
 
-Exploratory testing on https://www.phptravels.net
+The purpose of this document is to explain the what kind of testing I did in the automation part and the share opinions about what I think that shold be automated
 
-### NOTE
+### UI Task Automation reflection 
 
-The search functionality doesn't work at all. Not sure if this is part of the challenge or maybe the site is not working at this moment or some breaking change are deployed in last few days.
-The issues will be reported below because with broken Search functionality I cannot do any further testing.
+* For UI Automation part I would say that the tests represents very low level of smoke test. Where the very basic checks are performed. 
+* For UI Automation I would automate whole regression suite. Because in my opinion regression tests always should be automated. If the come to be very big and time consuming and if we want to execute them on each commit, I would say that we need to group our tests in smaller suites, where we will be able to run them as Sanity Checks after each commit, and full regression suite can run every night. 
 
-
-## Issues
-
-1. Search functionality returns 404 when you search by hotel
-    Steps to reproduce: 
-    * Navigate to https://www.phptravels.net
-    * Navigate to My Account -> Login
-    * Enter correct password and username 
-    * Navigate to home page 
-    * Search for some hotel ( Example: type "Hotel" in the search box) 
-    * Click on "Search" button 
-    
-    Actual Results: You will get 404 Not Found error
-    Expected Results: Hotel should be shown on the page (Expected results should be more detailed but at this moment I don't know what is expected)
-    
-    Console Errors: 
-    * https://www.phptravels.net/home/suggestions_v2/hotels?q=hote&_=1626729572861 -> Request is with status Cancalled
-    * notfound:782 Uncaught ReferenceError: fmt is not defined
-        at notfound:782
-    (anonymous) @ notfound:782
-
-    Screenshoots: 
-   <img src="Capture1.PG"
-        alt="Markdown Monster icon"
-        style="float: left; margin-right: 10px;" />
-
-## Reports
-
-1. Our main test reports will be Extent Reports and they can be found here: TestReports/ExtentReport.html
-2. Surefire Reports can be found here : target/surefire-reports/AllTestSuite
-a) JUnit test reports can be found here: target/surefire-reports/junitreports
-b) Additional reports can be found in : target/surefire-reports/index.html
+* For the given type of the application where we have a lot of dinamyc data (New Items, new prices etc), I would go with data driven tests in order to be able to easily do changes for products, even better we can colect them from DB before test starts. 
 
 
 
-## Built With
+## API Task Automatin reflection (This task is added in separate repo https://github.com/ShelbyCompanyLimited/APIChallenge ) 
 
-* Maven
-* Selenium
-* TestNG
-* Junit (only for assertions)
-* Surefire
-* ExtentReports
+* For this test again I would say that in the example I did very low level of smoke test. 
+* For API Automation task again I would like to do Automate whole Regression test suite, where we can go deeper and do spme negative scenarios (Not only positive). As well if there are some caluclations we need to do them on our side in order to check if the API behaves as expected. 
+* For API Automation I Always prefer data diven testing because as always in API it's all about data, so we need to have relaible, configurable and flexible tests. 
+* In my opinion for API testing is very important to write a reusable functions where we can use them as Bots and create diferent scenarios. For example: We have scenario to find a hotel , add extra Breakfast and pay the hotel. Those 3 steps should be different "Bots" so with the same code we can test Finding a hotel and booking it without extra breakfast, and as well wih the same code we can do a full scenario.
 
-
-## Authors
-
-IT
-
-
-## Thank you for reading! 
 
