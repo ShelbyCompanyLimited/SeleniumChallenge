@@ -50,7 +50,7 @@ b) Additional reports can be found in : target/surefire-reports/index.html
 
 ## Authors
 
-IT
+Ivan Todorovski
 
 
 ## Thank you for reading! 
