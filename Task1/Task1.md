@@ -30,9 +30,7 @@ The issues will be reported below because with broken Search functionality I can
     (anonymous) @ notfound:782
 
     Screenshoots: 
-   <img src="Capture1.PG"
-        alt="Markdown Monster icon"
-        style="float: left; margin-right: 10px;" />
+   ![](Capture1.JPG)
 
 
 
