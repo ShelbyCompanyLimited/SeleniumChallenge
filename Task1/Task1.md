@@ -29,8 +29,9 @@ The issues will be reported below because with broken Search functionality I can
         at notfound:782
     (anonymous) @ notfound:782
 
-    Screenshoots: 
+    Screenshoots: <br />
    ![](Capture1.JPG)
+   ![](Capture2.JPG)
 
 
 
