@@ -1,5 +1,5 @@
 
-# Project Overview
+# Task 1
 
 Exploratory testing on https://www.phptravels.net
 
@@ -51,4 +51,13 @@ The issues will be reported below because with broken Search functionality I can
     
     Screenshoots: <br />
     ![](Capture3.JPG)
+    
+    
+ 
+ ## 3 Key Scenarios
+ 
+ 1. Find and book a hotel - In this scenario we need to be able to search and find the hotel, and to be able pay and book it. We need to Verify that the hotel for the booked period is correctly booked and no other users can book the same room for the same period. 
+ 2. Data integrity - While booking a hotel room we need to check that the data ( dates/ price/number of people/etc) is correct. 
+ 3. Reservation at same time - In this scenario we need to verify that 2 users cannot book the same hotel room at the same time for the same period. This could be done on developer side with some "Reservation" period where the first user which will proceed to payment will have for example 10 minutes to finish the payment. This is to prottect double bookings. 
+    
     
